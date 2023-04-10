@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <div class="container">
+    <div class="header">
+      <button onclick="Data()">Person List</button>
+      <button onclick="Form()">Form</button>
+    </div>
+   
+
+    <div id="main-container">
+        <form id="form" class="form">
+            <div class="form-control">
+              <input type="text" placeholder="FirstName" id="FirstName" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="text" placeholder="lastName" id="lastName" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="date" placeholder="Dob" id="date" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="email" placeholder="Email" id="email" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="tel" placeholder="PhoneNumber" id="phone" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="text" placeholder="Pin Code" id="pin" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <button>Submit</button>
+          </form>
+      
+    </div>
+
+   
+
+<script src="./script.js"></script>
+
+</body>
+</html>
